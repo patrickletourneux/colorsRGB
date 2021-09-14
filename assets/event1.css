@@ -1,0 +1,65 @@
+/* Patrick 2021/09 */
+
+#doc
+{
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(255, 255, 255);
+    /* border: 5px solid black; */
+    /* text-align: center; */
+}
+
+/* #information
+{
+    display: flex;
+    background-color: rgb(0, 225, 255);
+    width: 600px;
+    min-width: 200px;
+    min-height: 100px;
+    border: 1px solid black;
+    text-align: center; 
+} */
+#raquettes1,#raquettes2,#raquettes3
+{
+    /* background-color: rgb(20, 255, 255); */
+    flex-direction:column;
+    border: 1px solid black;
+    /* height: 200px; */
+    width: 357px;
+    margin: 0px;
+}
+#raquette_Red1,#raquette_Red2,#raquette_Red3
+{
+    border: 1px solid black; 
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+}
+#raquette_Green1,#raquette_Green2,#raquette_Green3
+{
+    border: 1px solid black; 
+    border-radius: 10px;
+    background-color: rgb(0, 255, 0);
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+}
+#raquette_Blue1,#raquette_Blue2,#raquette_Blue3
+{
+    border: 1px solid black; 
+    border-radius: 10px;
+    background-color: rgb(0, 0, 255);
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+}
+#resultColor1,#resultColor2,#resultColor3
+{
+    background-color: rgb(0, 0, 0);
+    /* border: 1px solid black; */
+    /* width: 200px; */
+    height: 200px;
+    margin: 0px;
+}
