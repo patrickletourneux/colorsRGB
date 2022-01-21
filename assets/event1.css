@@ -1,6 +1,13 @@
 /* Patrick 2021/09 */
 /* help choose colors in html css js GUI */
 
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 #doc
 {
     display: flex;
